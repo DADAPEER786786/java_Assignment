@@ -5,9 +5,7 @@ public class PrimeCheck {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
-
         boolean isPrime = true;
-
         if (num <= 1) {
             isPrime = false;
         } else {
@@ -18,7 +16,6 @@ public class PrimeCheck {
                 }
             }
         }
-
         if (isPrime)
             System.out.println("Prime number");
         else

@@ -5,9 +5,7 @@ public class GradeCalculator {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter marks: ");
         int marks = sc.nextInt();
-
         char grade;
-
         if (marks >= 80)
             grade = 'A';
         else if (marks >= 70)
@@ -18,7 +16,6 @@ public class GradeCalculator {
             grade = 'D';
         else
             grade = 'F';
-
         switch (grade) {
             case 'A':
                 System.out.println("Excellent");

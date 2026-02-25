@@ -16,7 +16,6 @@ class BankAccount {
         this.accountNumber = accountNumber;
         this.balance = balance;
     }
-
     public void deposit(double amount) {
         balance += amount;
     }
@@ -27,7 +26,6 @@ class BankAccount {
         else
             System.out.println("Insufficient balance");
     }
-
     public void display() {
         System.out.println("Account: " + accountNumber + ", Balance: " + balance);
     }
